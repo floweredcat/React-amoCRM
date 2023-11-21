@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-amoCRM/static/css/main.541ff56b.css",
+    "main.js": "/React-amoCRM/static/js/main.88a3b997.js",
+    "static/media/Inter-Black.ttf": "/React-amoCRM/static/media/Inter-Black.83d81b169bedf85385f2.ttf",
+    "static/media/Inter-Medium.ttf": "/React-amoCRM/static/media/Inter-Medium.3f7acfe50aad7ad68548.ttf",
+    "static/media/Inter-Regular.ttf": "/React-amoCRM/static/media/Inter-Regular.9ca9ba81e9dcaa12b3a1.ttf",
+    "static/media/Montserrat-Light.ttf": "/React-amoCRM/static/media/Montserrat-Light.7179b7d2ac9b599db5f9.ttf",
+    "static/media/Montserrat-Regular.ttf": "/React-amoCRM/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
+    "static/media/bg.png": "/React-amoCRM/static/media/bg.29999c456f961ef888b0.png",
+    "static/media/logo_welbex.svg": "/React-amoCRM/static/media/logo_welbex.2e08d1bd108cb8b2aee116b1817d851e.svg",
+    "static/media/whatsapp.svg": "/React-amoCRM/static/media/whatsapp.c3d7a933a8355b23bc435ff74d3849c1.svg",
+    "static/media/viber.svg": "/React-amoCRM/static/media/viber.efdbe6bd3950a854df10750809a40828.svg",
+    "index.html": "/React-amoCRM/index.html",
+    "static/media/telegram.svg": "/React-amoCRM/static/media/telegram.40ecd015eebebbe71b5bd0354d54208e.svg",
+    "main.541ff56b.css.map": "/React-amoCRM/static/css/main.541ff56b.css.map",
+    "main.88a3b997.js.map": "/React-amoCRM/static/js/main.88a3b997.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.541ff56b.css",
+    "static/js/main.88a3b997.js"
+  ]
+}
