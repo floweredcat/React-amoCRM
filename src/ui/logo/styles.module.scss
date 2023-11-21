@@ -1,0 +1,25 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  max-width: 165px;
+  text-decoration: none;
+}
+
+.logo_text {
+  color: #e4e5ea;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .logo {
+    display: none;
+  }
+}

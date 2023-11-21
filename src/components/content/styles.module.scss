@@ -1,0 +1,160 @@
+.content {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  position: relative;
+  grid: 1;
+  & button {
+    margin-top: 61px;
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: left;
+  & p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 275px;
+  }
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 40px;
+  & * {
+    text-align: right;
+  }
+}
+
+h1 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  max-width: 362px;
+  background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 291px;
+  background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+span {
+  font-weight: 500;
+  text-transform: none;
+  background: #e4e5ea;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px 31px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 160px;
+  & h3 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.9px;
+  }
+  & p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .content {
+    max-width: 100vw;
+    flex-direction: column;
+    align-items: flex-start;
+    background: url("../../assets/bg.png"), lightgray 0% 0% / 100px 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // mix-blend-mode: overlay;
+    padding: 40px 15px 55px;
+    & * {
+      z-index: 1;
+    }
+    & svg {
+      display: none;
+    }
+    & button {
+      display: none;
+    }
+  }
+  .contentContainer {
+    align-items: flex-start;
+    gap: 20px;
+    & * {
+      text-align: left;
+    }
+  }
+  h1 {
+    font-size: 36px;
+  }
+
+  .info {
+    gap: 15px;
+    margin-bottom: 45px;
+  }
+
+  .cards {
+    gap: 10px 14px;
+  }
+
+  .card {
+    & h3 {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      & span {
+        display: block;
+        content: "";
+        width: 10px;
+        height: 1px;
+        background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+      }
+      // &[id="Виджеты"] {
+      //   & ::after {
+      //     content: "30 виджетов";
+      //   }
+      // }
+    }
+    & p {
+      display: none;
+    }
+  }
+}

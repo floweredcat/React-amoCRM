@@ -1,0 +1,43 @@
+.footer {
+  width: 100%;
+  padding: 124px 0 22px;
+}
+
+.footer_content {
+  max-width: 1140px;
+  display: flex;
+  margin: 0 auto;
+  gap: 98px;
+}
+
+.copyright {
+  padding-top: 33px;
+  max-width: 1140px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  gap: 5px;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  & a {
+    text-decoration: underline;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .footer {
+    padding: 45px 15px 60px;
+  }
+  .footer_content {
+    z-index: 3;
+    flex-direction: column;
+    gap: 30px;
+  }
+}

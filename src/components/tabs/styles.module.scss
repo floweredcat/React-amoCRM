@@ -1,0 +1,15 @@
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+@media screen and (max-width: 1180px) {
+  .tabs {
+    overflow-x: scroll;
+    gap: 16px;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}

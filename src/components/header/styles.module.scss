@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+  max-width: 1140px;
+  padding-top: 57px;
+  gap: 52px;
+  position: relative;
+  z-index: 3;
+  & * {
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  & ::after {
+    content: "";
+    position: absolute;
+    width: 259px;
+    height: 259px;
+    top: -154px;
+    right: 37vw;
+    border-radius: 259px;
+    opacity: 0.1;
+    background-color: rgba(132, 59, 181, 0.1);
+    filter: blur(196px);
+    z-index: -1;
+  }
+}
+
+.contacts {
+  display: flex;
+  gap: 47px;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 1180px) {
+  .header {
+    padding: 20px 16px;
+    z-index: 3;
+    justify-content: center;
+    & .contacts,
+    svg {
+      display: none;
+    }
+  }
+}

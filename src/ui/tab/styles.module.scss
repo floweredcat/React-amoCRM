@@ -1,0 +1,13 @@
+.tab {
+  list-style: none;
+}
+
+@media screen and (max-width: 1180px) {
+  .tab * {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+}

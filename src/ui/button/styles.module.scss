@@ -1,0 +1,20 @@
+.button {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 21px 35px;
+  background: #4077f3;
+  color: #e4e5ea;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  transition: all 0.1s ease;
+  &:hover {
+    cursor: pointer;
+  }
+  &:active {
+    opacity: 0.8;
+  }
+}
